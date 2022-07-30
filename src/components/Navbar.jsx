@@ -21,7 +21,7 @@ const Navbar = () => {
       {user?.displayName ? (
         <button onClick={handleSignOut}>Logout</button>
       ) : (
-        <Link to='/signin'>Sign in</Link>
+        <Link to='/signin'>Sign in with Google</Link>
       )}
     </div>
   );
